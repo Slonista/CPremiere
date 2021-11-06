@@ -20,3 +20,4 @@ la formule magique est : $\frac{-b\pm\sqrt{b^{2}-4ac}}{2a}$
 
 
 
+![TOTO](https://stephane-bonnaud.fr/wp-content/uploads/2020/03/cours-physique-terminale-S-1.jpg)
