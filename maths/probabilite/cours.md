@@ -18,7 +18,7 @@ Elle est notée $P_{A}(B)$ et est **défini par** : $P_{A}(B) = \frac{P(A \cap B
 
 - $P_{A}(B)$ se lit "probabilité de `B` sachant `A`"
 
-- $P_{A}(B) = 1$ 
+- $P_{A}(A) = 1$ 
 
 - $0 \leq P_{A}(B) \leq 1$
 
