@@ -1,23 +1,34 @@
-# Probabilités conditionnelles et indépendance
-
-## Probabilités conditionneles
-
-### Définition
-
-Soient `A` et `B` deux événements de  
-$$
-\begin{align*}
-y = y(x,t) &= A e^{i\theta} \\
-&= A (\cos \theta + i \sin \theta) \\
-&= A (\cos(kx - \omega t) + i \sin(kx - \omega t)) \\
-&= A\cos(kx - \omega t) + i A\sin(kx - \omega t)  \\
-&= A\cos \Big(\frac{2\pi}{\lambda}x - \frac{2\pi v}{\lambda} t \Big) + i A\sin \Big(\frac{2\pi}{\lambda}x - \frac{2\pi v}{\lambda} t \Big)  \\
-&= A\cos \frac{2\pi}{\lambda} (x - v t) + i A\sin \frac{2\pi}{\lambda} (x - v t)
-\end{align*}
-$$
-
-la formule magique est : $\frac{-b\pm\sqrt{b^{2}-4ac}}{2a}$
+# CHAPITRE 2 = Probabilités conditionnelles et indépendance
 
 
 
-![TOTO](https://stephane-bonnaud.fr/wp-content/uploads/2020/03/cours-physique-terminale-S-1.jpg)
+## 		I - Probabilités conditionnelles
+
+### 		<u>Définitions</u>
+
+Soit `A` et `B` deux évènement de $\Omega$ avec $P(A) \neq 0$
+
+On appelle probabilité conditionnelle de `B` sachant `A`, la probabilité **qu'un évènement `B` se réalise, sachant que l'évènement `A` est réalisé.**
+
+Elle est notée $P_{A}(B)$ et est **défini par** : $P_{A}(B) = \frac{P(A \cap B)}{P(A)}$ 
+
+
+
+### 		<u>Remarques :</u>
+
+- $P_{A}(B)$ se lit "probabilité de `B` sachant `A`"
+
+- $P_{A}(B) = 1$ 
+
+- $0 \leq P_{A}(B) \leq 1$
+
+- $P_{A}(\Omega) = 1$  et  $P_{A}(\phi) = 0$​
+
+- En situation d'équiprobabilité, on a :
+
+  $P_{A}(B) = \frac{P(A \cap B)}{P(A)}$ 
+
+- Si on connais la probabilité conditionnelle $P_{A}(B)$ alors :
+
+  $P(A \cap B) = P(A) \times P(B)$ 
+
